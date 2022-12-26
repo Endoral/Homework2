@@ -48,5 +48,10 @@ public class Main {
     var workHours = 8;
     var totalWorked = totalHours/workHours;
     System.out.println("Всего работников в компании - " + totalWorked + " человек");
+    var worked = 80;
+    worked = worked + 96;
+    System.out.println(worked);
+
+
     }
 }
