@@ -43,5 +43,10 @@ public class Main {
 
     var surplusWeight = secondBoxer%firstBoxer;
     System.out.println("Избыток "+ surplusWeight);
+
+    var totalHours = 640;
+    var workHours = 8;
+    var totalWorked = totalHours/workHours;
+    System.out.println("Всего работников в компании - " + totalWorked + " человек");
     }
 }
