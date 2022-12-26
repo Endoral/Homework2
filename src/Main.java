@@ -51,6 +51,8 @@ public class Main {
     var worked = 80;
     worked = worked + 96;
     System.out.println(worked);
+    var distributionHours = totalHours/worked;
+    System.out.println("Если в компании работает " + worked + " человек, то всего " + distributionHours + " часа работы может быть поделено между сотрудниками");
 
 
     }
