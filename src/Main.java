@@ -69,7 +69,7 @@ double f = 55.567890123;
 
 float g = 27.12f;
         System.out.println(f);
-int h = 987 678 965 549;
+long h = 987678965549L;
         System.out.println(h);
 float i = 2.786f;
         System.out.println(i);
