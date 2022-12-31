@@ -55,11 +55,17 @@ public class Main {
     System.out.println("Если в компании работает " + worked + " человек, то всего " + distributionHours + " часа работы может быть поделено между сотрудниками");
 
 byte a = 22;
+        System.out.println(a);
 short b = 300;
+        System.out.println(b);
 int c = 1000000;
+        System.out.println(c);
 long d = 3000000;
+        System.out.println(d);
 float e = 1.25f;
+        System.out.println(e);
 double f = 55.567890123;
+        System.out.println(f);
 
 
 
