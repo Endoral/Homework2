@@ -54,7 +54,12 @@ public class Main {
     var distributionHours = totalHours/worked;
     System.out.println("Если в компании работает " + worked + " человек, то всего " + distributionHours + " часа работы может быть поделено между сотрудниками");
 
-
+byte a = 22;
+short b = 300;
+int c = 1000000;
+long d = 3000000;
+float e = 1.25f;
+double f = 55.567890123;
 
 
     }
