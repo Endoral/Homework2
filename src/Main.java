@@ -67,6 +67,21 @@ float e = 1.25f;
 double f = 55.567890123;
         System.out.println(f);
 
+float g = 27.12f;
+        System.out.println(f);
+int h = 987 678 965 549;
+        System.out.println(h);
+float i = 2.786f;
+        System.out.println(i);
+short j = 569;
+        System.out.println(j);
+short k = -159;
+        System.out.println(k);
+short l = 27897;
+        System.out.println(l);
+byte m = 67;
+        System.out.println(l);
+
 
 
     }
