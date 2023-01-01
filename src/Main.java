@@ -137,8 +137,27 @@ System.out.println (day500 + " дней, если сбрасывать по 500 
 int dgr = (day250 + day500) / 2;
 System.out.println (dgr + " день, если сбрасывать по среднему");
 
-
-
+float MashaZp = 67760;
+int DenZp = 83690;
+int KrisZp = 76230;
+float MashaZp2 = MashaZp/100-10;
+System.out.println (MashaZp2 + " это 10% прибавка к месячной зп Маши");
+float MashaZpGod = MashaZp2*12;
+System.out.println (MashaZpGod + " годовая прибавка к зп Маши");
+float pribM = MashaZp + MashaZpGod;
+System.out.println("Маша теперь получает " + pribM + " рублей. Годовой доход вырос на " + MashaZpGod + " рублей");
+float DenZp2 = DenZp/100-10;
+System.out.println (DenZp2 + " это 10% прибавка к месячной зп Дениса");
+float DenZpGod = DenZp2*12;
+System.out.println (DenZpGod + " годовая прибавка к зп Дениса");
+float pribD = DenZp + DenZpGod;
+System.out.println("Денис теперь получает " + pribD + " рублей. Годовой доход вырос на " + DenZpGod + " рублей");
+float KrisZp2 = KrisZp/100-10;
+System.out.println (KrisZp2 + " это 10% прибавка к месячной зп Кристины");
+float KrisZpGod = KrisZp2*12;
+System.out.println (KrisZpGod + " годовая прибавка к зп Кристины");
+float pribK = KrisZp + KrisZpGod;
+System.out.println("Кристина теперь получает " + pribK + " рублей. Годовой доход вырос на " + KrisZpGod + " рублей");
 
 
 
