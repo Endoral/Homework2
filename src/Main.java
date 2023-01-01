@@ -103,6 +103,16 @@ System.out.println("За 3 дня машина произвела " + day3 + " �
 int month = day*30;
 System.out.println("За месяц машина произвела " + month + " штук бутылок");
 
+byte banks = 120;
+byte whitebank1class = 2;
+byte brownbank1class = 4;
+int allBanks = whitebank1class + brownbank1class;
+System.out.println(allBanks);
+int klass = 120/allBanks;
+System.out.println("Всего классов " + klass);
+int whiteK = klass*whitebank1class;
+int brownK = klass*brownbank1class;
+System.out.println("В школе, где " +  klass + " классов, нужно " + whiteK + " банок белой краски и " + brownK + " банок коричневой краски");
 
 
 
