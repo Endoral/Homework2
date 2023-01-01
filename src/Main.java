@@ -127,6 +127,19 @@ System.out.println(totaslGramm + " грамм всего");
 float kg = totaslGramm/1000;
 System.out.println(kg + " килограмм всего");
 
+short agr = 7000;
+short bgr = 250;
+short cgr = 500;
+int day250 = agr/bgr;
+System.out.println (day250 + " дней, если сбрасывать по 250 гр");
+int day500 = agr/cgr;
+System.out.println (day500 + " дней, если сбрасывать по 500 гр");
+int dgr = (day250 + day500) / 2;
+System.out.println (dgr + " день, если сбрасывать по среднему");
+
+
+
+
 
 
 
