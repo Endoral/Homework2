@@ -91,6 +91,22 @@ System.out.println("всего " +  student + " учеников");
 int list = allPaper/ student;
 System.out.println("На каждого ученика рассчитано " +  list + " листов бумаги");
 
+byte bottles2min = 16;
+int bottle1min = bottles2min/2;
+System.out.println (bottle1min + " бутылок за минуту");
+int b20min = bottle1min*20;
+System.out.println("За 20 минут машина произвела " + b20min + " штук бутылок");
+int day = bottle1min*1440;
+System.out.println("За сутки машина произвела " + day + " штук бутылок");
+int day3 = day*3;
+System.out.println("За 3 дня машина произвела " + day3 + " штук бутылок");
+int month = day*30;
+System.out.println("За месяц машина произвела " + month + " штук бутылок");
+
+
+
+
+
 
 
     }
