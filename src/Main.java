@@ -114,6 +114,20 @@ int whiteK = klass*whitebank1class;
 int brownK = klass*brownbank1class;
 System.out.println("В школе, где " +  klass + " классов, нужно " + whiteK + " банок белой краски и " + brownK + " банок коричневой краски");
 
+short banans = 5*80;
+System.out.println(banans);
+int milk = 2*105;
+System.out.println(milk);
+int iceCreame = 2*100;
+System.out.println(iceCreame);
+short egg = 4*70;
+System.out.println(egg);
+float totaslGramm = banans + milk + iceCreame + egg;
+System.out.println(totaslGramm + " грамм всего");
+float kg = totaslGramm/1000;
+System.out.println(kg + " килограмм всего");
+
+
 
 
 
