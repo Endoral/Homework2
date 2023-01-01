@@ -82,6 +82,15 @@ short l = 27897;
 byte m = 67;
         System.out.println(l);
 
+byte LP = 23;
+byte AS = 27;
+byte EA = 30;
+short allPaper = 480;
+int student = LP + AS + EA;
+System.out.println("всего " +  student + " учеников");
+int list = allPaper/ student;
+System.out.println("На каждого ученика рассчитано " +  list + " листов бумаги");
+
 
 
     }
