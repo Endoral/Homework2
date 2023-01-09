@@ -159,8 +159,29 @@ System.out.println (KrisZpGod + " годовая прибавка к зп Кри
 float pribK = KrisZp + KrisZpGod;
 System.out.println("Кристина теперь получает " + pribK + " рублей. Годовой доход вырос на " + KrisZpGod + " рублей");
 
+int age = 18;
+if (age >= 18) {
+System.out.println("Если возраст человека равен 18 , то он совершеннолетний");
+}
+if (age < 18) {
+System.out.println("Если возраст человека равен 18 , то он недостиг совершеннолетия, нужно немного подождать");
+}
 
+int t = 4;
+if (t<5) {
+System.out.println("На улице холодно, нужно надеть шапку");
+}
+if (t>=5) {
+System.out.println("Сегодня тепло, можно идти без шапки");
+}
 
+int speed = 59;
+if (speed>=60) {
+    System.out.println("Если скорость, то придется заплатить штраф");
+}
+if (speed<60) {
+    System.out.println("Если скорость, то можно ездить спокойно");
+}
 
 
 
