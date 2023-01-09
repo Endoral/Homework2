@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {System.out.println("Hello world!");
     var dog = 8.0;
@@ -159,11 +161,11 @@ System.out.println (KrisZpGod + " годовая прибавка к зп Кри
 float pribK = KrisZp + KrisZpGod;
 System.out.println("Кристина теперь получает " + pribK + " рублей. Годовой доход вырос на " + KrisZpGod + " рублей");
 
-int age = 18;
-if (age >= 18) {
+int ag = 18;
+if (ag >= 18) {
 System.out.println("Если возраст человека равен 18 , то он совершеннолетний");
 }
-if (age < 18) {
+if (ag < 18) {
 System.out.println("Если возраст человека равен 18 , то он недостиг совершеннолетия, нужно немного подождать");
 }
 
@@ -183,8 +185,25 @@ if (speed<60) {
     System.out.println("Если скорость, то можно ездить спокойно");
 }
 
+int ageK = 5;
+if (ageK>=2 && ageK <=6) {
+    System.out.println("Если возраст человека равен 5, то ему нужно ходить в детский сад");
+}
 
+int ageS = 10;
+if (ageS >=7 && ageS <=18) {
+    System.out.println("Если человеку 10 лет, то ему нужно ходить в школу.");
+}
 
+int ageU = 20;
+if (ageU >=18 && ageU <=24) {
+    System.out.println("Если человеку 20 лет, то его место в университете");
+    }
+
+int ageW = 25;
+if (ageW >= 24) {
+System.out.println("Если возраст человека равен 25, то ему нужно ходить на работу");
+}
 
     }
 }
