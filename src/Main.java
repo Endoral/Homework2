@@ -215,6 +215,19 @@ int baby3 = 14;
 if (baby3>=14) {
     System.out.println("Если ребенок старше 14 лет, то он может кататься без сопровождения взрослого.");
 }
+int seats = 30;
+if (seats >=60 && seats<=42) {
+    System.out.println("Сидячие и стоячие места");
+} else {
+    System.out.println("Мест нет");
+
+    int one;
+    int two;
+    boolean three = true;
+    if (one<two && two<three) {
+        System.out.println("Самое большое число");
+    }
+}
 
     }
 }
